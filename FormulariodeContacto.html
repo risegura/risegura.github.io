@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="StyleSheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+  <link rel="javascript" href="javascript.js">
+  
+<head>
+  <title>Pizzería</title>
+  <link rel="icon" href="Iconos/pizza-slice.png" type="image/gif" sizes="18x18">
+</head>
+
+<body>
+
+<header>
+  <a href="Index.html"><img id="logoh" src="Iconos/pizza-slice.png"></a><a href="Index.html"><h2>Pizzeria</h2></a>
+</header>
+
+  <nav>
+    <a id="nav1" style="text-decoration: none;" href="CatalogoPizza.html" >Pizzas &nbsp;</a> 
+    <a id="nav2" style="text-decoration: none;" href="NuestrosLocales.html" >Locales &nbsp;</a>
+    <a id="nav3" style="text-decoration: none;" href="Index.html" >Home &nbsp;</a>
+  </nav>
+
+    <section id="sectioncontacto">
+      <article id="formulario">
+
+      <form id="form" action="" method="post" enctype="text/plain" >
+
+        <p>Completá el formulario de contacto:</p>
+
+        <p> Nombre y Apellido:<br>
+
+        <input autofocus id="nombre" type="text" name="nombre" size="22" required>
+        <br>
+
+        Correro electrónico:<br>
+
+        <input id= "mail" type="text" name="mail" size="22" required>
+        <br>
+
+        Teléfono:<br>
+
+        <input id="tel" type="text" name="tel" size="22" required>
+        <br>
+      
+        Motivo de tu contacto:<br>
+
+        <input id="subject" type="text" name="motivo" size="22" required>
+        <br>
+
+        Dejanos tus comentarios:<br>
+
+        <textarea id="comentarios" rows="5" cols="25" name="mensaje" required></textarea>
+        <br>
+
+        <input type="submit" value="Enviar" onClick="return validacion();">
+        </p>
+
+      </form>
+     </article>
+  </section>
+
+  <footer>
+    <div id="divfooter1">
+
+      <img id="logo" src="Imagenes/logo.webp">
+
+  </div>
+  <div id="divfooter2">
+    <a href="https://instagram.com"><img src="Iconos/instagram.png" style="width:1.3rem;height:1.3rem; margin-top: 0.6rem;margin-bottom: 0.6rem;"></a>
+    <a href="https://twitter.com"><img src="Iconos/twitter.png" style="width:1.3rem;height:1.3rem;margin-bottom: 0.6rem;"></a>
+    <a href="https://Facebook.com"><img src="Iconos/facebook.png" style="width:1.3rem;height:1.3rem;margin-bottom: 0.6rem;"></a><br>
+  </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&family=Tiro+Devanagari+Marathi&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+*{
+    font-family: 'Tiro Devanagari Hindi', 'Tiro Devanagari Marathi', 'Tiro Devanagari Sanskrit', serif;
+    font-weight: normal;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    column-gap: 1rem;
+    margin-bottom: 0px;
+}    
+body{
+    width: 95%;
+    margin-left: 2%;
+    background-image: url(Imagenes/estampatransparente.png);
+    background-repeat: repeat; 
+}
+h2{
+    color: #CD212A;
+    text-shadow: #008C45 5px 5px ,white 8px 8px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    background-color: rgba(192, 188, 187, 0.8);
+    text-align: center;
+    margin-bottom: 0%;
+}
+nav{
+    background-color: rgba(224, 223, 220, 0.8);
+    padding: 0.7rem;
+    text-align: right;
+    color:  rgba(128, 128, 128, 0.381);
+}
+
+#nav1{
+    color: #008C45;
+}
+#nav2{
+    color:#CD212A;
+}
+#nav3{
+    color: white;
+}
+
+div{
+    margin-top: 1rem;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+#imgcatalogo{
+    border-radius: 40%; 
+    vertical-align: middle;
+    height: 60%;
+    width: 60%;
+}
+#imgcatalogo:hover{
+    transform: scale(1.5, 1.5);
+    -ms-transform: scale(1.5,1.5);
+}
+#articlemapas{
+    width: 100%;
+    height: auto;
+}
+article{
+    align-self:center;
+    margin:0rem 1rem 0rem 1rem;
+    width: 50%;
+    height: 50%;
+}
+#formulario{
+    display: flex;
+    color:white;
+    margin-left: 1rem;
+    
+}
+
+form{
+    text-align: center;
+    margin-top: 1rem;
+    vertical-align: middle;
+}
+#imghome{
+
+    margin-top:0.5rem;
+    height:auto;
+    width:100%;
+    border-radius: 5%;
+}
+#sectioncontacto{
+    justify-content: left;
+    background-image: url(Imagenes/top-view-slices-salami-pizza.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    height: 100%;
+    width: 100%;
+}
+#logowhap{
+    width:2.2rem;
+    height:2.2rem;
+    vertical-align: middle;
+}
+p{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: grey;
+}
+#footerfont{
+    font-size: 1.4rem;
+    color: #CD212A;
+    text-shadow: #008C45 5px 5px ,white 8px 8px;
+}
+#divfooter1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+#divfooter2{  
+    margin-top: 0px; 
+}
+
+
+@media (max-width: 1800px){
+    #sectioncatalogo{    
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+        height: 100%;
+        width: 100%;
+    }
+    iframe{
+        margin: 1rem 0rem 1rem 0rem;
+        width:95%;
+        height: 25rem;
+        border-style: solid;
+        border-color: grey;
+    
+    }
+    #mapas{
+        display:flex;
+        justify-content: center;
+        position: relative;
+        column-gap: 1rem;
+        margin-bottom: 0px;
+    }
+    #logo{ 
+        margin-top: 0.5rem;       
+        height: 3.5rem;
+    }
+    p{
+        font-size: 24px;
+    }
+    #logoh{
+        padding:1.5rem;
+        height:11rem;
+    } 
+    nav{ 
+        font-size: 22px;
+    }
+    h2{
+        font-size: 75px;    
+    }
+}
+@media (max-width: 1000px){
+    #sectioncatalogo{    
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+        height: 100%;
+        width: 100%;
+    }
+    iframe{
+        margin: 1rem 0rem 1rem 0rem;
+        width:95%;
+        height: 25rem;
+        border-style: solid;
+        border-color: grey;
+    }
+    #mapas{
+        display:flex;
+        justify-content: center;
+        position: relative;
+        column-gap: 1rem;
+        margin-bottom: 0px;
+    }
+    #logo{
+        margin-top: 0.5rem;
+        height: 3.5rem;
+    }
+    p{
+        font-size: 20px;
+    }
+    #logoh{
+        height:9rem;
+    } 
+    nav{ 
+        font-size: 20px;
+    }
+    h2{
+        font-size: 50px;    
+    }
+}
+@media (max-width: 850px){  
+    #sectioncatalogo{    
+        display:grid;
+        grid-template-columns: auto auto auto;
+        height: 100%;
+        width: 100%;
+    }
+    iframe{
+        margin: 1rem 0rem 1rem 0rem;
+        width:100%;
+        height: 20rem;
+        border-style: solid;
+        border-color: grey;
+    }
+    #mapas{
+        display:flex;
+        flex-direction:column;
+        align-content: center;
+        margin-bottom: 0px;
+    }
+    #logo{
+        margin-top: 1rem;
+        height: 2.5rem;
+    }
+    p{
+        font-size: 16px;
+    }
+    #logoh{
+        height:7rem;
+    } 
+    nav{ 
+        font-size: 18px;
+    }
+    h2{
+        font-size: 40px;    
+    }
+}
+@media (max-width: 576px){
+
+    #sectioncatalogo{    
+        display:grid;
+        grid-template-columns: auto auto;
+        height: 100%;
+        width: 100%;
+    }
+    iframe{
+        margin: 1rem 0rem 1rem 0rem;
+        width: 100%;
+        height: 20rem;
+        align-self:center;
+        border-style: solid;
+        border-color: grey;
+    }
+    #mapas{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+        margin-bottom: 0px;
+    }
+    #logo{
+        margin-top: 1rem;
+        height: 2.5rem;
+    }
+    p{
+        font-size: 11px;
+    }
+    #logoh{
+        height:5rem;
+    } 
+    nav{ 
+        font-size: 14px;
+    }
+    h2{
+     font-size: 30px;    
+    }
+}
